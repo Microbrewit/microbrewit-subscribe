@@ -1,0 +1,53 @@
+Express server listening on port 8989
+[90mGET / [36m304 [90m9ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m26ms[0m
+[90mGET /images/microbrewit.png [36m304 [90m15ms[0m
+[90mGET / [36m304 [90m12ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+[90mGET /images/microbrewit.png [36m304 [90m2ms[0m
+[90mGET / [36m304 [90m12ms[0m
+[90mGET /images/microbrewit.png [32m200 [90m5ms - 5.51kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /images/background.png [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m1ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m14ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m6ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m5ms - 22.67kb[0m
+[90mGET / [32m200 [90m7ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m5ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m3ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m3ms - 22.67kb[0m
+[90mGET / [32m200 [90m3ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m2ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m4ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m3ms - 22.67kb[0m
+[90mGET / [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET /images/microbrewit.png [36m304 [90m2ms[0m
+[90mGET /images/background.png [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m3ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m8ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m5ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m2ms - 22.67kb[0m
+[90mGET / [32m200 [90m5ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m7ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m3ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m2ms - 22.67kb[0m
+[90mGET / [32m200 [90m3ms - 1.3kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m4ms - 13.9kb[0m
+[90mGET /images/microbrewit.png [32m200 [90m2ms - 5.51kb[0m
+[90mGET /images/background.png [32m200 [90m2ms - 22.67kb[0m
+Name: Kjetil Heitmann Email: kjetilheitmann@gmail.com
+[90mGET /mail?name=Kjetil+Heitmann&email=kjetilheitmann%40gmail.com [32m200 [90m18ms - 996[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /images/microbrewit.png [36m304 [90m2ms[0m
+[90mGET /images/background.png [36m304 [90m2ms[0m
+
+events.js:71
+        throw arguments[1]; // Unhandled 'error' event
+                       ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/microbrewit/www/Microbrewit/node_modules/mysql/lib/protocol/Protocol.js:68:13)
+    at Socket.onend (stream.js:66:10)
+    at Socket.EventEmitter.emit (events.js:126:20)
+    at TCP.onread (net.js:417:51)
